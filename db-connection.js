@@ -9,7 +9,7 @@ var connection = mysql.createConnection({
 
 connection.connect(err => {  // test out connetion and console.log error if there is one
     if (err) throw err;
-    console.log('Connected To DB');
+    console.log('Connected To AWS DB');
 }); 
 module.exports = connection;
 
